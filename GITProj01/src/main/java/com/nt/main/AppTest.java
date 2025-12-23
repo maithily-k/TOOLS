@@ -6,5 +6,6 @@ public class AppTest {
 public static void main(String []args){
 	ArithmeticOperations ops= new ArithmeticOperations();
 	System.out.println("Result : "+ops.sum(2,3));
+	System.out.println("Result : "+ops.sub(2,3));
 }
 }
