@@ -1,5 +1,6 @@
 package com.nt.main;
 
+import com.nt.nb.NetBankingService;
 import com.nt.service.ArithmeticOperations;
 import com.nt.upi.UPIPayment;
 
@@ -13,5 +14,9 @@ public static void main(String []args){
 	UPIPayment upip= new UPIPayment();
 	System.out.println(upip.doUPIPayment(909090909, 5000));
 	System.out.println(upip.doUPIPaymentbyaccno(909097779L, 5000F));
+	
+	System.out.println("======================");
+	NetBankingService nbs= new NetBankingService();
+	System.out.println(nbs.transferMoney(909090909, 9090905,5000));
 	}
 }
