@@ -12,5 +12,6 @@ public static void main(String []args){
 	System.out.println("======================");
 	UPIPayment upip= new UPIPayment();
 	System.out.println(upip.doUPIPayment(909090909, 5000));
+	System.out.println(upip.doUPIPaymentbyaccno(909097779L, 5000F));
 	}
 }
