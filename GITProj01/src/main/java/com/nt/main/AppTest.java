@@ -17,6 +17,6 @@ public static void main(String []args){
 	
 	System.out.println("======================");
 	NetBankingService nbs= new NetBankingService();
-	System.out.println(nbs.transferMoney(909090909, 9090905,5000));
+	System.out.println(nbs.transferMoney(909090909, 9090905,5000,"rtgs"));
 	}
 }
